@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Help Basics</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: #0A1330;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #CFB18F;
+            padding: 10px 20px;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #0A1330;
+            font-weight: bold;
+        }
+
+        input {
+            padding: 5px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Layout */
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Left Section (Branding) */
+        .left-section {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: white;
+        }
+
+        .basic-bg { background: #5D0C1D; }
+        .advanced-bg { background: #0A1330; }
+        .premium-bg { background: #9A825E; }
+
+        .left-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px; /* Added margin */
+        }
+
+        .package-description {
+            font-size: 1.2rem; /* Added font size */
+            text-align: center; /* Added text alignment */
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #CFB18F; /* Example color */
+            color: #0A1330;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+
+        /* Right Section (Content) */
+        .right-section {
+            width: 50%;
+            padding: 50px;
+            background: #CFB18F;
+        }
+
+        .social-icons a {
+            margin-right: 10px;
+            font-size: 1.5rem;
+            text-decoration: none;
+            color: #0A1330;
+        }
+
+        .feature-list {
+            list-style-type: disc; /* Added bullet points */
+            padding-left: 20px; /* Added padding */
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div>Logo (Replace with your logo)</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div>
+            <input type="text" placeholder="Search">
+            <button>Search</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="left-section basic-bg">  <h1>Career Help Basics</h1>
+            <p class="package-description">Your first step to a brighter future.</p>
+            <a href="#" class="cta-button">Get Started</a>
+        </div>
+        <div class="right-section">
+            <h2>What We Offer</h2>
+            <ul class="feature-list">
+                <li>Figuring Out What's Right for You</li>
+                <li>Finding Out About Jobs</li>
+                <li>Creating a Great CV</li>
+                <li>Making Your LinkedIn Look Awesome</li>
+                <li>Getting Ready for Interviews</li>
+                <li>Chatting About Your Career</li>
+                <li>Finding a Job</li>
+                <li>Extra Help</li>
+            </ul>
+             <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> </body>
+</html>
