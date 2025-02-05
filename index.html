@@ -3,148 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career Help Basics</title>
+    <title>Legal Career Services - Standard Plan</title>
     <style>
-        /* General Styles */
+        /* Basic Styling - Customize as needed */
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            color: #0A1330;
+            font-family: sans-serif;
+            line-height: 1.6;
+            margin: 20px;
         }
-
-        /* Navigation */
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background: #CFB18F;
-            padding: 10px 20px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
         }
-
-        ul {
-            list-style: none;
-            display: flex;
-            gap: 20px;
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
         }
-
-        ul li a {
-            text-decoration: none;
-            color: #0A1330;
+        th {
+            background-color: #f0f0f0; /* Light gray background for headers */
+        }
+        .highlight { /* Style for added value */
             font-weight: bold;
+            color: #007bff; /* Blue color for emphasis */
+        }
+        h1, h2, h3 {
+            text-align: center;
+        }
+        .plan-details {
+          text-align: center; /* Center the plan pricing and descriptions */
+          margin-bottom: 20px;
+        }
+        .not-included {
+          color: #8B4513; /* Brown color for not included */
+          font-style: italic;
         }
 
-        input {
-            padding: 5px;
-        }
-
-        button {
-            background: none;
-            border: none;
-            cursor: pointer;
-        }
-
-        /* Layout */
-        .container {
-            display: flex;
-            height: 100vh;
-        }
-
-        /* Left Section (Branding) */
-        .left-section {
-            width: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            color: white;
-        }
-
-        .basic-bg { background: #5D0C1D; }
-        .advanced-bg { background: #0A1330; }
-        .premium-bg { background: #9A825E; }
-
-        .left-section h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px; /* Added margin */
-        }
-
-        .package-description {
-            font-size: 1.2rem; /* Added font size */
-            text-align: center; /* Added text alignment */
-            margin-bottom: 30px;
-        }
-
-        .cta-button {
-            background-color: #CFB18F; /* Example color */
-            color: #0A1330;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-
-        /* Right Section (Content) */
-        .right-section {
-            width: 50%;
-            padding: 50px;
-            background: #CFB18F;
-        }
-
-        .social-icons a {
-            margin-right: 10px;
-            font-size: 1.5rem;
-            text-decoration: none;
-            color: #0A1330;
-        }
-
-        .feature-list {
-            list-style-type: disc; /* Added bullet points */
-            padding-left: 20px; /* Added padding */
-        }
     </style>
 </head>
 <body>
 
-    <nav>
-        <div>Logo (Replace with your logo)</div>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div>
-            <input type="text" placeholder="Search">
-            <button>Search</button>
-        </div>
-    </nav>
+    <h1>Legal Career Services - Standard Plan</h1>
 
-    <div class="container">
-        <div class="left-section basic-bg">  <h1>Career Help Basics</h1>
-            <p class="package-description">Your first step to a brighter future.</p>
-            <a href="#" class="cta-button">Get Started</a>
-        </div>
-        <div class="right-section">
-            <h2>What We Offer</h2>
-            <ul class="feature-list">
-                <li>Figuring Out What's Right for You</li>
-                <li>Finding Out About Jobs</li>
-                <li>Creating a Great CV</li>
-                <li>Making Your LinkedIn Look Awesome</li>
-                <li>Getting Ready for Interviews</li>
-                <li>Chatting About Your Career</li>
-                <li>Finding a Job</li>
-                <li>Extra Help</li>
-            </ul>
-             <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
+    <div class="plan-details">
+      <h2>Standard Legal Plan (R150/month)</h2>
+      <p>Enhanced support with personalized guidance and targeted resources.</p>
     </div>
 
-    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script> </body>
+    <table>
+        <thead>
+            <tr>
+                <th>Service Heading</th>
+                <th>Basic Legal Plan</th>
+                <th>Standard Legal Plan (R150/month)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Personalized Legal CV Review</td>
+                <td class="not-included">Not Included</td>
+                <td>Detailed, expert review of your legal CV.</td>
+            </tr>
+            <tr>
+                <td>Targeted Cover Letter Review</td>
+                <td class="not-included">Not Included</td>
+                <td>Personalized feedback on a cover letter.</td>
+            </tr>
+            <tr>
+                <td>Networking Strategies for Legal</td>
+                <td class="not-included">Not Included</td>
+                <td>Dedicated session on effective legal networking.</td>
+            </tr>
+            <tr>
+                <td>Access to Legal Career Webinars</td>
+                <td class="not-included">Not Included</td>
+                <td>Invitations to specialized legal career webinars.</td>
+            </tr>
+            <tr>
+                <td>Legal Career Consultation</td>
+                <td>30-minute consultation.</td>
+                <td>Two consultations, totaling 1 hour.</td>
+            </tr>
+            <tr>
+                <td>Figuring Out Your Legal Path</td>
+                <td>Assessments tailored to legal careers.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Finding Legal Opportunities</td>
+                <td>Information on legal career paths.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Creating a Winning Legal CV</td>
+                <td>CV templates and examples for legal roles.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Optimizing Your Legal LinkedIn</td>
+                <td>Guidance on building a professional LinkedIn profile.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Acing Legal Interviews</td>
+                <td>Mock interviews focused on legal questions.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Navigating the Legal Job Market</td>
+                <td>Networking advice and job board resources.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+            <tr>
+                <td>Essential Legal Career Resources</td>
+                <td>Access to articles and guides.</td>
+                <td>*Same as Basic*</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+</body>
 </html>
